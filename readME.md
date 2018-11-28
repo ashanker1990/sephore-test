@@ -14,6 +14,8 @@ In this manner I determine the correct order of scripts in the /tmp folder
 3.The this part is to parallelize some scripts.Since all the scripts which have DEPENDENCY ONLY ON RAW FILES can be though of the “base scripts” these can be run parallel initially.
 After this the scripts which have dependency on other /tmp scripts are executed.
 
+NOTE: The order of script execution between 2 and 3 changes -this shows how the parallelism affects the order of execution
+
 RUNNING INSTRUCTIONS:
 — Pull the repo
 — Run the sephora_script.py python code
